@@ -187,7 +187,21 @@ body {
 }
 
 /* Список контактів */
+
+.footer-contact-link-address:hover,
+.footer-contact-link-address:focus,
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-contact-list.current {
+    color: var(--accent-color);
+}
+
 .footer-contact-link-address {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -196,6 +210,8 @@ body {
 }
 
 .footer-contact-link {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
